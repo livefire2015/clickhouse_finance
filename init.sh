@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # ClickHouse Ops
-export CLICKHOUSE_HOST='review_samplemodulegeneration.the-ica.ninja'
 export CLICKHOUSE_HOST='localhost'
 export CLICKHOUSE_PORT=9000
+# set your user / password here 
 export CLICKHOUSE_USER='default'
-export CLICKHOUSE_PASSWORD='root'
+# export CLICKHOUSE_PASSWORD='XXX'
 export ckh_connect="--host ${CLICKHOUSE_HOST} --port ${CLICKHOUSE_PORT} --user=${CLICKHOUSE_USER} --password=${CLICKHOUSE_PASSWORD}"
 
 # Redshift Ops

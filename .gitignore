@@ -126,5 +126,6 @@ venv.bak/
 dmypy.json
 
 # parquet dataset
+secret.sh
 *.parquet
 data/
